@@ -1,0 +1,202 @@
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }    
+    
+    
+    header{
+        height: 166px;
+    }
+
+    nav{
+        height: 180px;
+        
+    }
+
+  
+
+    article{
+
+       
+    }
+    .contenidor {
+        width: 1716px;
+        margin: auto;
+        overflow: hidden;
+        text-align: center;
+    }
+    .entrada{
+        width: 536px;
+        height: 620px;
+        margin: 18px;
+        float: left;
+        
+    }
+
+    img {
+        width: 536px;
+        height: 536px;
+    }
+    .reaccions{
+        height: 84px;
+        overflow: hidden;
+    }
+
+    .circulo{
+        width: 80px;
+        height: 80px;
+        background-color: brown;
+        border-radius: 50%;
+        display: inline-block;
+        margin: 28px;
+        background-image: url(../img/images/perfil.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding: 10px;
+        border: solid 5px white;
+        box-shadow: 0px 0px 10px black;
+        opacity: 80%;
+        float: left;
+    }
+
+        .circulo:first-child:after{
+            content:"+";
+            display: block;
+            background-color: red;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            color: white;
+            font-size: 32px;
+            border: solid 5px white;
+            position: relative;
+            top: 55px;
+            left: 60px;
+           
+        }
+
+    .circulo:hover {
+        opacity: 100%;
+    }
+/*-----------elements article---------*/
+    .fotoautor{
+        width: 55px;
+        height: 55px;
+        background-image: url(../img/images/perfil.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        border-radius: 50%;
+        border: solid 5px white;
+        box-shadow: 0px 0px 10px black;
+        margin: 10px;
+        float: left;
+    }
+
+    .autor{
+        width: 268px;
+        height: 40px;
+        line-height: 40px;
+        font-weight: 700;
+        font-size: 22px;
+    }
+
+    .moment{
+        width: 268px;
+        color: gray;
+        font-size: 20px;
+    }
+    .esquerra{
+        width: 50%;
+        margin: 0;
+        float: left;
+    }
+
+    .dreta{
+        width: 50%;
+        margin: 0;
+        float: right;
+    }
+    .comentari{
+        height: 40px;
+        line-height: 40px;
+        font-weight: 700;
+        font-size: 22px;
+        width: 180px;
+        float: left;
+    }
+    .like{
+        height: 40px;
+        width: 40px;
+        float: left;
+    }
+    .mes  {
+        height: 40px;
+        width: 40px;
+        float:left ;
+        line-height: 30px;
+        font-weight: 700;
+    }
+
+    /*-----------elements header---------*/
+    .home{
+        width: 208px;
+        height: 39px;
+        background-color: red;
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-image: url(../img/images/ifpagram_12.jpg);
+        margin: 30px 0 0 0;
+        display: inline-block;
+        padding: 0;
+        
+    }
+
+    ul{
+        width: 208px;
+        height: 39px;
+        margin: 50px 510px 0 510px; 
+        display: inline-block;
+        background-color: maroon;
+        
+    }
+
+            li{
+                width: 32px;
+                height: 32px;
+                background-color: yellow;
+                margin: 3px 8px;
+                display: inline-block;
+                background-image: url(../img/images/ifpagram_09.jpg);
+                
+            }
+
+            .inici{
+                background-position: -27px -15px;
+            }
+            .cerca{
+                background-position: -111px -15px;
+            }
+            .reels{
+                background-position: -195px -15px;
+            }
+        
+            .favorits{
+                background-position: -279px -15px;
+            }
+
+    .perfil{
+        width: 208px;
+        height: 39px;
+        margin: 50px 0 0 0; 
+        background: red;
+        display: inline-block;
+    }
+
+    li .mensaje{
+        width: 32px;
+        height: 32px;
+        background-color: yellow;
+        margin: 3px 8px;
+        display: inline-block;
+        background-image: url(../img/images/ifpagram_mensajee.jpg);
+        background-position: -5px -15px;
+    }
